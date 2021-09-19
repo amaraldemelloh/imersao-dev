@@ -1,0 +1,28 @@
+body{
+	background-image: url("./assets/wall.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 100%;
+	color: greenyellow;
+}
+h1{
+	font-family: Montserrat;
+	font-weight: 600;
+}
+.cabec{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: +50px;
+}
+.cabec img{
+	width: 50px;
+	padding: 20px;
+	border-radius: 45px;
+}
+.main{
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-family: Roboto;
+}
