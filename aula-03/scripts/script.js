@@ -1,10 +1,12 @@
 let elementResult = document.getElementById('resultado');
 let i = 3;
 let correctNumber = parseInt(Math.random() *11);
+let tente = document.getElementById('tentativas');
 
 function Chutar() {
 	while(i > 0) {
 		let userNumber = parseInt(document.getElementById('valor').value);
+		tente.textContent = 'Tentativas: ' + i;
 		
 		if (userNumber < 0 || userNumber > 10) {
 			alert('Informe apenas números de 0 a 10.');
@@ -23,4 +25,8 @@ function Chutar() {
 		}
 	}
 	alert('Você errou! O número era ' + correctNumber);
+}
+
+function Refresh() {
+	location.reload();
 }
