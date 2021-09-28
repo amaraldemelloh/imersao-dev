@@ -56,17 +56,17 @@ function convertMoedas(valor) {
 	if (moeda == 1) {
 		elementResult.innerHTML = 'A converção para Dollar é de: ' + (valor /5.29).toFixed(2) + 'U$.';
 		elementResult2.innerHTML = 'A converção para Euro é de: ' + (valor /6.20).toFixed(2) + '€';
-		elementResult3.innerHTML = 'A converção para Bitcoin é de: ' + (valor *251.700).toFixed(2) + '₿.';
+		elementResult3.innerHTML = 'A converção para Bitcoin é de: ' + (valor /251.700).toFixed(2) + '₿.';
 	}
 	if (moeda == 2) {
 		elementResult.innerHTML = 'A converção para Real é de: ' + (valor *5.29).toFixed(2) + 'R$';
 		elementResult2.innerHTML = 'A converção para Euro é de: ' + (valor /1.17).toFixed(2) + '€';
-		elementResult3.innerHTML = 'A converção para Bitcoin é de: ' + (valor *47.570).toFixed(2) + '₿.';
+		elementResult3.innerHTML = 'A converção para Bitcoin é de: ' + (valor /47.570).toFixed(2) + '₿.';
 	}
 	if (moeda == 3) {
 		elementResult.innerHTML = 'A converção para Real é de: '+ (valor *6.20).toFixed(2) + 'R$';
 		elementResult2.innerHTML = 'A converção para Dollar é de: ' + (valor *1.17).toFixed(2) + 'U$';
-		elementResult3.innerHTML = 'A converção para Bitcoin é de: ' + (valor *40.620).toFixed(2) + '₿.';
+		elementResult3.innerHTML = 'A converção para Bitcoin é de: ' + (valor /40.620).toFixed(2) + '₿.';
 	}
 }
 

@@ -20,7 +20,7 @@ function result(selected, valor) {
 			p.innerText = '(' + valor + 'C) - ' + selected + ': ' + (valor * (9/5) + 32) + 'F'
 		}
 		if (tool == 2) {
-			p.innerText = '(' + valor + 'R$) - ' + selected + ': ' + (valor * 4.5) + '$'
+			p.innerText = '(' + valor + 'R$) - ' + selected + ': ' + (valor * 4.5) + 'U$'
 		}
 		main.appendChild(p)
 }
